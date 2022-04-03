@@ -28,7 +28,7 @@ int main () {
     int sama = 0;
 
     printf("Masukkan nama anda: ");
-    scanf("%s", username);
+    scanf("%[^\n]s", username);
     printf("Halo %s!!!. Selamat datang di kalkulator penjumlahan ini. :) \n\n", username);
     
     pertanyaan();
