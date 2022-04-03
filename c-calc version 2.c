@@ -48,9 +48,6 @@ int main () {
     return 0;
 }
 
-void exit(int status);
-
-
 int pertanyaan () {
     int operator;
     double first;
